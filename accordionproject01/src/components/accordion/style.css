@@ -10,6 +10,17 @@ body {
     width: 100vw;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper button {
+    padding: 10px 20px;
+    background-color: #614101;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .accordion {
